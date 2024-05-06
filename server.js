@@ -13,6 +13,6 @@ mongoose
   .then(() => console.log("database connected"))
   .catch((err) => console.log(err));
 
-server.listen(2040, () => {
+server.listen(2050, () => {
   console.log("Server running");
 });
